@@ -6,7 +6,7 @@
   --secondary-color: radial-gradient(circle, rgba(229,194,40,0.4276304271708683) 0%, rgba(239,145,54,0.5872942927170868) 100%);
 }
 
-h1 h2 h3 h4 h5{
+h1, h2, h3, h4, h5{
   font-family: var(--heading-font-family);
   font-weight: bold;
   
@@ -55,20 +55,27 @@ padding: 160px 20px;
   color: var(--branding-color);
   
 }
-.about-section h1{
+.content h1{
 font-size: 64px;
 line-height: 80px;
 }
-.about-section{
+.content-container{
   padding: 160px 20px;
 }
-.about-section-content{
+.content{
   margin: 30px;
 }
-.about-section h2{
+.content h2{
   font-size: 18px;
   font-family: var(--default-font-family);
 
+}
+.content h3{
+  font-size: 24px;
+  line-height: 1;
+  
+  color: var(--branding-color);
+  font-family: var(--default-font-family);
 }
 .my-picture{
   margin: 30px;
@@ -121,7 +128,7 @@ color: var(--branding-color);
     padding: 0;
     text-align: center;
   }
-  .about-section{
+  .content{
     text-align: center;
     padding: 0;
   }
