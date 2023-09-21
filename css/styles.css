@@ -132,9 +132,42 @@ color: var(--branding-color);
     text-align: center;
     padding: 0;
   }
+
+  nav ul {
+    text-align: center;
+  }
+  
 }
 .img-fluid{
  
   height: 560px;
   width: 560px;
+}
+
+
+nav{
+  padding: 10px;
+  
+}
+nav ul{
+  padding: 0;
+  margin: 0;
+}
+nav li{
+  display: inline;
+  line-height: 40px;
+ margin-left: 10px;
+}
+nav a{
+ text-decoration: none;
+ color: var(--branding-color);
+ transition: all 100ms ease-in-out;
+ padding: 10px;
+}
+
+nav li.active a {
+  color: var(--branding-background-color);
+}
+nav a:hover{
+  color: var(--branding-background-color);
 }
