@@ -140,12 +140,22 @@ nav a{
  transition: all 100ms ease-in-out;
  padding: 10px;
 }
-
-nav li.active a {
+.navbar-toggler {
+  background-color: var(--branding-background-color);
+  padding: 8px;
+  border-radius: 4px;
+}
+.burguer-icon{
+  font-size: 30px;
+  color: var(--branding-color);
+}
+.active {
   color: var(--branding-background-color);
 }
 nav a:hover{
   color: var(--branding-background-color);
+  
+  
 }
 footer{
   margin: 60px 0;
@@ -206,6 +216,14 @@ footer .social-links a:hover{
     text-align: center;
     padding: 0;
   }
-
+navbar{
+   padding: 10px;
+  font-size: 15px;
+  
+}
+nav li{
+ line-height: 20px;
+ margin-left: 10px;
+}
 
 }
